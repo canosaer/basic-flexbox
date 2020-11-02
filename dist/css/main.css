@@ -150,7 +150,13 @@ table {
 
 /* 1. Main Layout ================================= */
 
+body{
+	font-family: 'Montserrat', sans-serif;
+}
 
+a{
+	text-decoration: none;
+}
 
 .hide-small{
 	display: none;
@@ -159,8 +165,157 @@ table {
 .hero a:after{
 	content: ">";
 	display: inline-block;
-	width: 16px;
-	height: 25px;
+	font-size: 1rem;
+	margin-left: 40%;
+	font-weight: bold;
+	color: #fff;
+}
+
+header{
+	display: flex;
+	background: #373c3f;
+	justify-content:space-between;
+}
+
+header span{
+	color:white;
+	font-size: 1.06rem;
+	margin: 3%;
+}
+
+header a{
+	background: #202529;
+	width: 13%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:center;
+}
+
+header div{
+	background: #ffffff;
+	width: 38%;
+	margin: 3%;
+	height: 5%;
+}
+
+.hero{
+	display:flex;
+	flex-direction:column;
+	background: linear-gradient(to bottom right, #27b9ca, #0b8ca5);
+}
+
+.hero h1{
+	color: #ffffff;
+	font-size: 1.75rem;
+	margin: 15% 9% 5% 5%;
+	font-weight: bold;
+}
+
+.hero a{
+	color: #b4dae2;
+	font-size: 1rem;
+	margin: 0% 0% 15% 5%;
+}
+
+.cta{
+	display: flex;
+}
+
+.cta .purple{
+	background: #27212c;
+	padding: 10% 0%;
+	flex:8;
+	display: flex;
+	justify-content: center;
+}
+
+.cta .pink{
+	flex:2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #bc3183;
+	border-top: #e15ade 1px solid;
+	border-left: #d1338f 1px solid;
+	border-right: #d24bac 1px solid;
+	border-bottom: #a31be3 1px solid;
+}
+
+.cta .pink p{
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cta .purple p{
+	color: #9786a6;
+	font-size: 0.875rem;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+}
+
+.row .first{
+	background: #5b0fa1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	border-top: #991add;
+	height: 300px;
+}
+
+.first p{
+	color: #fff;
+	font-size: 3.375rem;
+	font-weight: bold;
+	text-align: center;
+	margin: 33%;
+}
+
+.photo{
+	width:100%;
+	background-size:cover;
+	height:300px;
+}
+
+.bridge{
+	background-image: url("../../src/img/bridge.png");
+	
+}
+
+.girl{
+	background-image: url("../../src/img/girl.png");
+}
+
+.main-content{
+	background: #ebebeb;
+	display: flex;
+	flex-direction: column;
+}
+
+.main-content h2{
+	margin: 7% 0% 5%;
+}
+
+.main-content a{
+	color: #088ca5;
+	font-size: 1.3125rem;
+	margin-left: 5%;
+}
+
+.main-content p{
+	line-height: 1.5;
+	color: #6e6e6e;
+	margin: 0% 5% 7%;
+}
+
+.main-content p+p{
+	margin-bottom: 11%;
 }
 
 
