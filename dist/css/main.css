@@ -157,6 +157,10 @@ a{
 	text-decoration: none;
 }
 
+header .menu-toggle{
+	position: relative;
+}
+
 .hide-small{
 	display: none;
 }
@@ -165,7 +169,7 @@ a{
 	content: ">";
 	display: inline-block;
 	font-size: 1rem;
-	margin-left: 40%;
+	margin-left: 143px;
 	font-weight: bold;
 	color: #fff;
 }
@@ -207,8 +211,10 @@ header div{
 .hero h1{
 	color: #ffffff;
 	font-size: 1.75rem;
-	margin: 15% 9% 5% 5%;
+	margin: 15% 0% 5% 5%;
 	font-weight: bold;
+	line-height:1.1;
+	width:86%;
 }
 
 .hero a{
@@ -226,7 +232,6 @@ header div{
 	padding: 10% 0%;
 	flex:7;
 	display: flex;
-	justify-content: center;
 }
 
 .cta .pink{
@@ -251,6 +256,7 @@ header div{
 .cta .purple p{
 	color: #9786a6;
 	font-size: 0.875rem;
+	margin-left: 5%;
 }
 
 .row{
@@ -349,7 +355,8 @@ header div{
 
 	.hero h1{
 		font-size: 2.625rem;
-		margin: 17% 20% 5% 9%;
+		margin: 17% 0% 5% 9%;
+		width: 63%;
 	}
 
 	.hero a{
@@ -359,12 +366,13 @@ header div{
 	
 	.hero a:after{
 		font-size: 1.5625rem;
-		margin-left: 30.5%;
+		margin-left: 215px;
 	}
 
 	.cta .purple p{
 		font-size: 1.3125rem;
 		font-weight: bold;
+		margin-left: 9%;
 	}
 
 	.cta .pink p{
@@ -376,8 +384,6 @@ header div{
 	}
 
 	.photo{
-		width:100%;
-		background-size:cover;
 		height:200px;
 	}
 
@@ -434,7 +440,40 @@ header div{
 
 	.hero h1{
 		font-size: 2.755rem;
-		margin: 17% 20% 5% 9%;
+		margin: 17% 0% 5% 9%;
+		width:50%;
+	}
+
+	.hero a{
+		font-size: 1.625rem;
+		margin: 0% 0% 15% 9%;
+	}
+
+	.hero a:after{
+		font-size: 1.6875rem;
+		margin-left: 219px;
+	}
+
+	.cta .purple p{
+		font-size: 1.375rem;
+		font-weight: bold;
+		margin-left: 9%;
+	}
+
+	.cta .pink p{
+		font-size: 2.25rem;
+	}
+
+	.photo{
+		height: 300px;
+	}
+
+	.main-content h2{
+		margin-top: 9%;
+	}
+
+	.main-content .hide-small p:first-child{
+		margin-top: 17%;
 	}
 
 }
